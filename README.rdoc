@@ -1,0 +1,7 @@
+# Purpose
+
+To demonstrate that parent cannot be accessed when setting nested attribute.
+
+# Usage
+
+bin/rails r bin/bam

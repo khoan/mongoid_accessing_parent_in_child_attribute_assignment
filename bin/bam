@@ -1,0 +1,14 @@
+# usage:  bin/rails runner bin/bam
+
+attributes = {
+  'images_attributes' => {
+    '0' => {
+      'bam' => 'bam'
+    }
+  }
+}
+page = Page.new
+page.attributes = attributes
+
+puts 'after setting attributes'
+puts page.images.first.page
