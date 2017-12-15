@@ -5,3 +5,7 @@ To demonstrate that parent cannot be accessed when setting nested attribute.
 # Usage
 
 bin/rails r bin/bam
+
+# Bug Report
+
+https://jira.mongodb.org/browse/MONGOID-3834
